@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "poppins_Medium";
+    src: url('../../assets/Poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "poppins_light";
+    src: url('../../assets/Poppins/Poppins-Light.ttf') format('truetype');
+}
+
+
+.box_content{
+    background-color: black;
+}
+
+.recentPost{
+    padding: 20px;
+    color: white;
+}
+
+.box_content{
+  display: grid;
+  column-gap: 50px;
+  row-gap: 10px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+
+.grid-item h4,
+.grid-item p {
+  color: white;
+}
+
+
+.artTitle{
+    text-align: left;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 1.2em;
+    letter-spacing: 0;
+    font-family: "poppins_Medium";
+}
+
+.overview{
+    text-align: left;
+    font-family: "poppins_light";
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.line{
+
+    border-bottom: 1px solid white;
+}
+
+.artAut{
+    text-align: left;
+    font-family: "poppins_light";
+    font-size: 16px;
+}
+
+.artDate{
+    text-align: left;
+    font-family: "poppins_light";
+    font-size: 16px;
+}
+
+.autdate{
+    padding-top: 20px;
+}
+
+.artbutton{
+    font-size: medium;
+    color: aliceblue;
+    background-color: black;
+    border: none;
+    margin-bottom: 25px;
+}

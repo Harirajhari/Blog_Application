@@ -1,0 +1,89 @@
+.container {
+    color: aliceblue;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.editor,
+.preview {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.preview {
+    border-left: 1px solid white;
+    background-color: black;
+    white-space: pre-wrap; /* Preserve white space */
+    word-wrap: break-word; /* Ensure long words break */
+}
+
+.ql-editor {
+    color: black;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.editor-input {
+    height: 100%;
+    width: 100%;
+}
+
+.preview ul, .preview ol {
+    padding-left: 20px; /* Indent list items */
+    list-style-position: inside; /* Ensure the bullet or number is inside the list item */
+}
+
+.preview li {
+    margin-bottom: 5px; /* Add some spacing between list items */
+}
+
+.preview .ql-indent-1 {
+    padding-left: 20px;
+}
+
+.preview .ql-indent-2 {
+    padding-left: 40px;
+}
+
+.preview .ql-indent-3 {
+    padding-left: 60px;
+}
+
+.preview .ql-indent-4 {
+    padding-left: 80px;
+}
+
+.preview .ql-indent-5 {
+    padding-left: 100px;
+}
+
+.preview .ql-indent-6 {
+    padding-left: 120px;
+}
+
+.preview .ql-indent-7 {
+    padding-left: 140px;
+}
+
+.preview .ql-indent-8 {
+    padding-left: 160px;
+}
+
+.preview .ql-indent-9 {
+    padding-left: 180px;
+}

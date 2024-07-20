@@ -1,0 +1,36 @@
+.header {
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #efefef;
+     /* border: 1px solid white; */
+    width:auto;
+    height: 35px;
+  }
+  
+  .headercont {
+    display: flex;
+    align-items: center;
+  }
+
+  .startbuttom{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    font-size: 14px; 
+    font-weight: 500;
+    margin-right: 20px
+  }
+  
+  .horizontal-menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .horizontal-menu li {
+    cursor: pointer;
+  }

@@ -1,0 +1,39 @@
+.value1{
+    margin-left: 20px;
+    background-color: aliceblue;
+    color: black;
+}
+
+.value2{
+    margin-left: 20px;
+    background-color: aliceblue;
+    color: black;
+}
+
+.opeartion{
+    margin-right:20px ;
+    background-color: aliceblue;
+    color: black;
+}
+
+.button{
+    padding: 10px;
+    background-color: aliceblue;
+    color: black;
+}
+
+.select{
+    color: aliceblue;
+}
+
+.result{
+    color: aliceblue;
+}
+
+.h2field{
+    color: aliceblue;
+}
+
+.TimerHeading{
+    color: aliceblue;
+}
