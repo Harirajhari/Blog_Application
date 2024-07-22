@@ -10,6 +10,8 @@ import data from "./util/data.jsx"
 import BlogPost from './components/pages/BlogPost.jsx';
 import Operation from './components/pages/Operation.jsx';
 import Land from './components/pages/LandingPage/Land.jsx';
+import Profile from './components/pages/Profile.jsx';
+import Signup from './components/pages/Signup.jsx';
 
 
 
@@ -37,6 +39,14 @@ const routes = createBrowserRouter([
       {
         path: "/login",
         element:<Login />
+      },
+      {
+        path:"/signup",
+        element:<Signup />
+      },
+      {
+        path:"/profile",
+        element:<Profile />
       },
       {
         path: "/operation",

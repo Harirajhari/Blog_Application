@@ -14,10 +14,12 @@ const UserSchema = new Schema({
         type:String,
         required:true
     },
-    phoneNumber:{
-        type:Number,
-        required:true
-    }  
+    bio:{
+        type:String
+    },
+    profile_pic:{
+        type:Buffer
+    }
 })
 
 const User = mongoose.model("user", UserSchema);

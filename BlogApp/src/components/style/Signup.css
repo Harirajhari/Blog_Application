@@ -1,55 +1,61 @@
-   .LoginBody {
-    background-color: black; /* Set the background color to black */
-    color: white; /* Set the default text color to white */
+.signupBody{
+    background-color: black; 
+    color: white;
     height: 100vh;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial,serif; /* Add a default font-family */
-  }
-
-   
-   .login-form-container {
-    max-width: 500px;
-    width: 100%; 
-    margin: 0 auto; 
-    padding: 40px;
-    border: 1px solid #444; 
-    border-radius: 10px;
-    background-color: #222;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    font-family: Arial,serif;
   }
   
-  .login-form-container form {
+  .signup-form-container {
+    max-width: 500px;
+    width: 100%; 
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #444;
+    border-radius: 10px; 
+    background-color: #222;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .signup-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white; /* Ensure heading color is white */
+  }
+  
+  .signup-form-container form {
     display: flex;
     flex-direction: column;
   }
   
-  .login-form-container label {
+  .signup-form-container label {
     margin-bottom: 8px;
-    color: white;
-    display: block; 
+    color: white; /* Ensure label color is white */
+    display: block; /* Ensure label takes full width */
   }
   
-  .login-form-container input[type="email"],
-  .login-form-container input[type="password"] {
-    padding: 15px; 
+  .signup-form-container input[type="text"], 
+  .signup-form-container input[type="email"],
+  .signup-form-container input[type="password"] {
+    padding: 15px; /* Increase padding */
     margin-bottom: 15px;
-    border: 1px solid #555; 
-    border-radius: 5px;
+    border: 1px solid #555; /* Darker border for input fields */
+    border-radius: 5px; /* Slightly larger border-radius for inputs */
     background-color: #333; /* Dark background for input fields */
     color: white; /* White text color for input fields */
     width: 100%; /* Ensure inputs take full width of container */
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
   }
   
-  .login-form-container input[type="email"]::placeholder,
-  .login-form-container input[type="password"]::placeholder {
+  .signup-form-container input[type="email"]::placeholder,
+  .signup-form-container input[type="password"]::placeholder {
     color: #888; /* Lighter placeholder text color */
   }
   
-  .login-form-container button {
+  .signup-form-container button {
     padding: 10px; /* Increase padding */
     background-color: #4caf50;
     font-size: large;
@@ -58,26 +64,26 @@
     border-radius: 5px; /* Slightly larger border-radius for button */
     cursor: pointer;
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-    width: 100%;/* Ensure button takes full width of container */
+    width: 100%; /* Ensure button takes full width of container */
   }
   
-  .login-form-container button:hover {
+  .signup-form-container button:hover {
     background-color: #45a049; /* Darker green on hover */
   }
   
-  .login-form-container p {
+  .signup-form-container p {
     text-align: center;
     margin-top: 15px;
     color: white; /* Ensure paragraph color is white */
   }
   
-  .login-form-container p a {
+  .signup-form-container p a {
     color: #4caf50; /* Green color for links */
     text-decoration: none;
     transition: color 0.3s ease; /* Smooth transition for hover effect */
   }
   
-  .login-form-container p a:hover {
+  .signup-form-container p a:hover {
     color: #45a049; /* Darker green on hover */
     text-decoration: underline;
   }

@@ -1,7 +1,11 @@
+.wholeBlog{
+    margin-top: 2px;
+}
+
 .container {
     color: aliceblue;
     position: relative;
-    height: 100vh;
+    height: 900px;
     width: 100%;
 }
 
@@ -20,15 +24,15 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
 }
 
 .preview {
     border-left: 1px solid white;
     background-color: black;
-    white-space: pre-wrap; /* Preserve white space */
-    word-wrap: break-word; /* Ensure long words break */
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 .ql-editor {
